@@ -1,9 +1,41 @@
 .app-layout {
 	display: grid;
 	grid-template-rows: auto 1fr;
-	gap: 1.3rem;
-	max-width: 1200px;
+	gap: var(--main-layout-gap);
+	max-width: var(--main-layout-max-width);
 
 	margin: 0 auto;
-	padding: 1.5rem 2.5rem;
+}
+
+.app-layout > main {
+	display: grid;
+	grid-template-columns: var(--content-layout-columns-desktop);
+}
+
+.app-layout > main > section {
+	padding-right: var(--content-layout-columns-gap);
+}
+
+.app-layout > main > aside {
+	padding-left: var(--content-layout-columns-gap);
+	border-left: var(--content-layout-columns-separator-border);
+}
+
+@media (max-width: 820px) {
+	.app-layout > main {
+		grid-template-columns: 1fr;
+		grid-template-rows: repeat(2, auto);
+	}
+
+	.app-layout > main > section {
+		padding-right: 0;
+		padding-bottom: var(--content-layout-columns-gap);
+	}
+
+	.app-layout > main > aside {
+		padding-left: 0;
+		padding-top: var(--content-layout-columns-gap);
+		border-left: none;
+		border-top: var(--content-layout-columns-separator-border);
+	}
 }

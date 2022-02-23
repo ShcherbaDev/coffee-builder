@@ -1,9 +1,9 @@
 .top-navigation {
 	display: flex;
 	align-items: center;
-	gap: 18px;
+	gap: var(--top-navigation-links-gap);
+	height: var(--top-navigation-height);
 	list-style: none;
-	height: 36px;
 }
 
 .top-navigation__item {
@@ -14,15 +14,15 @@
 }
 
 .top-navigation__link {
-	color: #ececec;
+	color: var(--top-navigation-link-color);
 	text-decoration: none;
 
-	font-size: 1.2em;
+	font-size: var(--top-navigation-link-size);
 	font-weight: 300;
 
 	transition: color .15s ease;
 }
 
 .top-navigation__link:hover {
-	color: #fff;
+	color: var(--top-navigation-link-color-hover);
 }

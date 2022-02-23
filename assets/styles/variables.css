@@ -1,0 +1,24 @@
+:root {
+	--body-padding: 1.5rem 2.5rem;
+
+	--background-gradient: radial-gradient(circle 400px, #434343, #353535);
+	--background-fallback-color: #353535;
+	
+	--main-font-family: 'Roboto Serif', sans-serif;
+	--main-font-weight: 400;
+	--main-line-height: 1.4;
+	--main-text-color: #fff;
+
+	--main-layout-max-width: 1200px;
+	--main-layout-gap: 1.3rem;
+
+	--content-layout-columns-desktop: 1fr 400px;
+	--content-layout-columns-gap: 2rem;
+	--content-layout-columns-separator-border: 1px solid #999999;
+
+	--top-navigation-height: 36px;
+	--top-navigation-links-gap: 18px;
+	--top-navigation-link-color: #ececec;
+	--top-navigation-link-size: 1.2em;
+	--top-navigation-link-color-hover: #fff;
+}
