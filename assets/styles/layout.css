@@ -1,0 +1,9 @@
+.app-layout {
+	display: grid;
+	grid-template-rows: auto 1fr;
+	gap: 1.3rem;
+	max-width: 1200px;
+
+	margin: 0 auto;
+	padding: 1.5rem 2.5rem;
+}
