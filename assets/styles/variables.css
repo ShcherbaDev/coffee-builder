@@ -13,7 +13,7 @@
 	--main-layout-gap: 1.3rem;
 
 	--content-layout-columns-desktop: 1fr 400px;
-	--content-layout-columns-gap: 2rem;
+	--content-layout-columns-gap: 1.4rem;
 	--content-layout-columns-separator-border: 1px solid #999999;
 
 	--top-navigation-height: 36px;
@@ -21,4 +21,21 @@
 	--top-navigation-link-color: #ececec;
 	--top-navigation-link-size: 1.2em;
 	--top-navigation-link-color-hover: #fff;
+
+	--form-controls-gap: 1.3rem;
+	--form-control-label-margin: 4px;
+	--form-control-padding: .4rem .5rem;
+	--form-control-font-size: 1rem;
+	--form-control-color: #fff;
+	--form-control-placeholder-color: #fff;
+	--form-control-background: #555555;
+	--form-control-border: 1px solid #9d9d9d;
+	--form-control-border-radius: 4px;
+
+	--presets-gap: 1rem;
+	--preset-padding: 1rem 1.5rem;
+	--preset-max-width: 180px;
+	--preset-background: #555555;
+	--preset-border: 1px solid #9d9d9d;
+	--preset-border-radius: 4px;
 }

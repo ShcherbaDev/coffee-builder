@@ -11,9 +11,11 @@
 	<link rel="stylesheet" href="./assets/styles/variables.css">
 	<link rel="stylesheet" href="./assets/styles/main.css">
 	<link rel="stylesheet" href="./assets/styles/layout.css">
+	<link rel="stylesheet" href="./assets/styles/forms.css">
 	
 	<link rel="stylesheet" href="./assets/styles/components/top-navigation.css">
 	<link rel="stylesheet" href="./assets/styles/components/form-control.css">
+	<link rel="stylesheet" href="./assets/styles/components/preset.css">
 </head>
 <body class="app-layout">
 	<header>
@@ -23,12 +25,57 @@
 			</li>
 		</nav>
 	</header>
-	<main>
+
+	<div class="form-container">
 		<div class="form-control">
-			<label for="">Test form</label>
-			<input type="text">
+			<label class="form-control__label" for="test1">Test form</label>
+			<input class="form-control__input" type="text" id="test1" placeholder="asdasd">
 		</div>
-	</main>
+		<div class="form-control">
+			<label class="form-control__label" for="test2">Test form</label>
+			<input class="form-control__input" type="number" id="test2" placeholder="asdasd">
+		</div>
+	</div>
+
+	<hr>
+
+	<div class="presets-container">
+		<div class="preset">
+			<figure class="preset__image">
+				<img src="https://www.picng.com/upload/cappuccino/png_cappuccino_10995.png" alt="Cappuccino">
+			</figure>
+			<h2 class="preset__title">
+				Cappuccino
+			</h2>
+			<p class="preset__description">
+				Lorem ipsum dolor sit amet consectetur adipisicing elit.
+			</p>
+		</div>
+
+		<div class="preset">
+			<figure class="preset__image">
+				<img src="https://www.picng.com/upload/cappuccino/png_cappuccino_10995.png" alt="Cappuccino">
+			</figure>
+			<h2 class="preset__title">
+				Cappuccino
+			</h2>
+			<p class="preset__description">
+				Lorem ipsum dolor sit amet consectetur adipisicing elit.
+			</p>
+		</div>
+
+		<div class="preset">
+			<figure class="preset__image">
+				<img src="https://www.picng.com/upload/cappuccino/png_cappuccino_10995.png" alt="Cappuccino">
+			</figure>
+			<h2 class="preset__title">
+				Cappuccino
+			</h2>
+			<p class="preset__description">
+				Lorem ipsum dolor sit amet consectetur adipisicing elit.
+			</p>
+		</div>
+	</div>
 
 	<script src="./assets/scripts/main.js" type="module"></script>
 </body>

@@ -1,0 +1,33 @@
+.form-container {
+	display: flex;
+	flex-direction: column;
+	gap: var(--form-controls-gap);
+}
+
+.form-control {
+	display: flex;
+	flex-direction: column;
+}
+
+.form-control__label {
+	margin-bottom: var(--form-control-label-margin);
+}
+
+.form-control__input {
+	display: block;
+	width: 100%;
+	padding: var(--form-control-padding);
+
+	font-size: var(--form-control-font-size);
+	color: var(--form-control-color);
+	background-color: var(--form-control-background);
+
+	border: var(--form-control-border);
+	border-radius: var(--form-control-border-radius);
+
+	appearance: none;
+}
+
+.form-control__input::placeholder {
+	color: var(--form-control-placeholder-color);
+}
